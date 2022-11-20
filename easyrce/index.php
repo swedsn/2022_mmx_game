@@ -10,7 +10,7 @@
 error_reporting(0);
 if(isset($_GET['cmd'])){
     $c = $_GET['cmd'];
-    if(!preg_match("/flag|cat|php/i", $c)){
+    if(!preg_match("/cat|php/i", $c)){
         eval($c);
     }
     
