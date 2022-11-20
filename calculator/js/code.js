@@ -26,7 +26,7 @@ $(function() {
       
     $("#check").click(function(){ 
         if ($(".input").val() == code && code != 9999) {  
-            alert("flag{9977179a94603dcc13788cd2b61df78c}");  
+            alert("flag{6fee3ffdd5eb11e313a27ecb5f644f77}");  
         } else {  
             alert("输入有误!");  
         }  
